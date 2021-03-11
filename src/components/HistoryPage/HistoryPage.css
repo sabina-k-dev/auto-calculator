@@ -1,0 +1,50 @@
+.table-history {
+  display: flex;
+  padding: 20px;
+  box-shadow: none !important;
+  min-height: 400px;
+  background-color: transparent !important;
+  color: #fff !important;
+  text-align: left;
+}
+.table-history input,
+.table-history select {
+  margin-bottom: 20px;
+}
+.table-history input[type="checkbox"] {
+  max-width: 100%;
+  width: 50px;
+  padding: 10px;
+  margin: 0px;
+}
+.table-history input[type="text"] {
+  max-width: 100%;
+  width: 300px;
+}
+.top-panel-history .form-check {
+  margin-left: 50px;
+}
+.table-history p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.table-history .not-history {
+  width: 100%;
+}
+.table-history td a {
+  /*display: flex;
+	height: 100%;
+	align-items: center;*/
+  font-weight: bold;
+}
+
+.sort-point {
+  cursor: pointer;
+}
+.not-active {
+  opacity: 0.5;
+}

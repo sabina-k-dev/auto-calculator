@@ -1,0 +1,49 @@
+.header {
+  background-color: #000;
+}
+.header h1 {
+  font-size: 65px;
+  line-height: 65px;
+  font-family: Heebo, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: -webkit-linear-gradient(31deg, #519ef6, #91f7c5 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menuHeader {
+  font-family: Heebo, sans-serif;
+  position: relative;
+  z-index: 1010;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0 0 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+.menuHeader_item {
+  height: 50px;
+  flex: 1 0 auto;
+}
+.menuHeader_link {
+  justify-content: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+.menuHeader a {
+  color: #fff;
+  font-weight: 600;
+  justify-content: center;
+  font-size: 16px;
+  margin: 10px;
+}
+.menuHeader a:hover,
+.menuHeader a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.menuHeader a.active {
+  color: #1b7fef;
+}
